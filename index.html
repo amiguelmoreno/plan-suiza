@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Itinerario dia a dia por Suiza del 2 al 7 de septiembre de 2026, con horarios reales, precios 2026 y aparcamientos.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Seis dias con los tios">
+<meta property="og:description" content="Plan de viaje por Suiza, 2 al 7 de septiembre de 2026.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128678;</text></svg>">
+<style>html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Seis días con los tíos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+
+<style>
+:root{
+  --paper:#E8ECE9;
+  --surface:#F7F8F6;
+  --surface-2:#DDE3DF;
+  --ink:#16211E;
+  --ink-2:#51625C;
+  --ink-3:#7C8C86;
+  --line:#C6CFCA;
+  --line-soft:#D8DFDB;
+  --accent:#AE3822;
+  --accent-ink:#8C2C19;
+  --accent-soft:#F2DFD9;
+  --glacier:#356E88;
+  --glacier-soft:#DAE6EC;
+  --moss:#4F6B38;
+  --moss-soft:#E0E7D6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1513;
+    --surface:#151F1C;
+    --surface-2:#1D2A26;
+    --ink:#E8EEEA;
+    --ink-2:#9FAEA8;
+    --ink-3:#7A8A84;
+    --line:#2B3833;
+    --line-soft:#222E2A;
+    --accent:#E36D50;
+    --accent-ink:#F0937B;
+    --accent-soft:#331C15;
+    --glacier:#84B6CE;
+    --glacier-soft:#152A33;
+    --moss:#9CB47F;
+    --moss-soft:#1B2416;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1513;
+  --surface:#151F1C;
+  --surface-2:#1D2A26;
+  --ink:#E8EEEA;
+  --ink-2:#9FAEA8;
+  --ink-3:#7A8A84;
+  --line:#2B3833;
+  --line-soft:#222E2A;
+  --accent:#E36D50;
+  --accent-ink:#F0937B;
+  --accent-soft:#331C15;
+  --glacier:#84B6CE;
+  --glacier-soft:#152A33;
+  --moss:#9CB47F;
+  --moss-soft:#1B2416;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Source Serif 4","Iowan Old Style",Georgia,serif;
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem 5rem}
+
+.label{
+  font-family:"Barlow Condensed","Helvetica Neue",Arial,sans-serif;
+  font-weight:600;text-transform:uppercase;letter-spacing:.14em;
+  font-size:.78rem;color:var(--ink-3);line-height:1.2;
+}
+.num{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:"Barlow Condensed","Helvetica Neue",Arial,sans-serif;font-weight:700;text-wrap:balance;margin:0;line-height:1.05}
+
+.mast{padding:3.5rem 0 2rem;border-bottom:1px solid var(--line)}
+.mast .eyebrow{display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap;margin-bottom:1rem}
+.mast .eyebrow .dot{width:6px;height:6px;background:var(--accent);border-radius:50%;display:inline-block}
+h1{font-size:clamp(2.6rem,8vw,4.6rem);letter-spacing:-.015em}
+h1 .sub{display:block;color:var(--accent);font-weight:600;font-size:.34em;letter-spacing:.1em;text-transform:uppercase;margin-top:.9rem}
+.lede{margin:1.4rem 0 0;max-width:39rem;color:var(--ink-2);font-size:1.08rem}
+
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:2.2rem}
+.fact{background:var(--surface);padding:.85rem 1rem}
+.fact .k{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--ink-3);font-weight:600}
+.fact .v{font-family:"IBM Plex Mono",monospace;font-size:.92rem;font-variant-numeric:tabular-nums;margin-top:.2rem;line-height:1.4}
+
+nav.days{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter:saturate(150%) blur(10px);
+  border-bottom:1px solid var(--line);
+  margin:0 -1.25rem;padding:0 1.25rem;
+}
+nav.days ul{display:flex;gap:0;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:thin}
+nav.days a{
+  display:block;white-space:nowrap;text-decoration:none;color:var(--ink-2);
+  font-family:"Barlow Condensed",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.1em;font-size:.82rem;
+  padding:.85rem 1rem;border-bottom:2px solid transparent;
+}
+nav.days a:hover{color:var(--ink);border-bottom-color:var(--line)}
+nav.days a:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+nav.days a .n{font-family:"IBM Plex Mono",monospace;color:var(--accent);margin-right:.45rem;font-size:.78rem}
+
+.day{padding:3.2rem 0;border-bottom:1px solid var(--line)}
+.day-head{display:grid;grid-template-columns:5.5rem 1fr;gap:1.5rem;align-items:start}
+.day-mark .n{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:3.4rem;line-height:.85;color:var(--accent);letter-spacing:-.02em;display:block}
+.day-mark .date{font-family:"IBM Plex Mono",monospace;font-size:.78rem;color:var(--ink-3);margin-top:.5rem;display:block;line-height:1.4}
+.day-title{font-size:clamp(1.7rem,4.5vw,2.5rem);letter-spacing:-.01em}
+.day-kicker{margin:.6rem 0 0;color:var(--ink-2);max-width:37rem}
+
+.meta{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1.1rem}
+.chip{
+  font-family:"IBM Plex Mono",monospace;font-size:.76rem;font-variant-numeric:tabular-nums;
+  border:1px solid var(--line);background:var(--surface);padding:.28rem .6rem;color:var(--ink-2);
+}
+.chip b{color:var(--ink);font-weight:500}
+.chip.hot{border-color:var(--accent);color:var(--accent-ink);background:var(--accent-soft)}
+.chip.good{border-color:var(--moss);color:var(--moss);background:var(--moss-soft)}
+
+.tl{margin:2rem 0 0;padding:0;list-style:none;border-top:1px solid var(--line-soft)}
+.tl li{display:grid;grid-template-columns:5.5rem 1fr;gap:1.5rem;padding:.95rem 0;border-bottom:1px solid var(--line-soft)}
+.tl .t{font-family:"IBM Plex Mono",monospace;font-size:.86rem;font-variant-numeric:tabular-nums;color:var(--accent);padding-top:.18rem;font-weight:500}
+.tl .t.soft{color:var(--ink-3)}
+.tl .b strong{font-family:"Barlow Condensed",sans-serif;font-size:1.18rem;font-weight:600;display:block;margin-bottom:.15rem}
+.tl .b p{margin:.15rem 0 0;color:var(--ink-2);font-size:.97rem}
+.tl .b p + p{margin-top:.5rem}
+
+.note{margin-top:1.6rem;padding:1rem 1.15rem;background:var(--surface);border-left:3px solid var(--glacier)}
+.note.warn{border-left-color:var(--accent)}
+.note.good{border-left-color:var(--moss)}
+.note .label{margin-bottom:.45rem;color:var(--ink-3)}
+.note p{margin:0;font-size:.97rem;color:var(--ink-2)}
+.note p + p{margin-top:.6rem}
+.note strong{color:var(--ink)}
+
+.tablewrap{overflow-x:auto;margin-top:1.6rem;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:36rem;background:var(--surface)}
+th,td{text-align:left;padding:.6rem .85rem;border-bottom:1px solid var(--line-soft);font-size:.92rem}
+th{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.11em;font-size:.74rem;color:var(--ink-3);font-weight:600;background:var(--surface-2);border-bottom:1px solid var(--line)}
+td.n,th.n{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+td.free{color:var(--moss);font-weight:600}
+tbody tr:last-child td{border-bottom:none}
+tfoot td{background:var(--surface-2);font-weight:600;border-top:1px solid var(--line)}
+
+.sec{padding:3.2rem 0;border-bottom:1px solid var(--line)}
+.sec:last-of-type{border-bottom:none}
+.sec > h2{font-size:clamp(1.6rem,4vw,2.2rem);letter-spacing:-.01em}
+.sec > p{color:var(--ink-2);max-width:39rem}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.5rem;margin-top:1.8rem}
+.card{background:var(--surface);border:1px solid var(--line);padding:1.1rem 1.2rem}
+.card h3{font-size:1.2rem;margin-bottom:.5rem}
+.card p{margin:0;color:var(--ink-2);font-size:.95rem}
+.card p + p{margin-top:.55rem}
+.card .verdict{font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.8rem;margin-bottom:.55rem;display:block}
+.card .verdict.yes{color:var(--moss)}
+.card .verdict.no{color:var(--accent)}
+
+ul.checks{list-style:none;padding:0;margin:1.6rem 0 0;display:grid;gap:.1rem}
+ul.checks li{display:grid;grid-template-columns:1.5rem 1fr;gap:.6rem;padding:.6rem 0;border-bottom:1px solid var(--line-soft);align-items:start}
+ul.checks li:last-child{border-bottom:none}
+ul.checks .box{width:14px;height:14px;border:1.5px solid var(--accent);margin-top:.35rem}
+ul.checks .txt{font-size:.97rem}
+ul.checks .txt b{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:1.08rem;display:block}
+ul.checks .txt span{color:var(--ink-2)}
+
+.foot{padding:2.5rem 0 0;color:var(--ink-3);font-size:.86rem}
+a{color:var(--accent-ink)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+@media (max-width:620px){
+  body{font-size:16px}
+  .day-head,.tl li{grid-template-columns:1fr;gap:.4rem}
+  .day-mark{display:flex;align-items:baseline;gap:.8rem}
+  .day-mark .n{font-size:2.2rem}
+  .day-mark .date{margin-top:0}
+  .tl .t{padding-top:0}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow">
+    <span class="dot"></span>
+    <span class="label">2 al 7 de septiembre de 2026 · 4 personas · base en Emmen</span>
+  </div>
+  <h1>Seis días con los tíos<span class="sub">Bernina · Pilatus · Appenzell · Lauterbrunnen</span></h1>
+  <p class="lede">Versión optimizada por precio. Cada día usa la combinación de billete más barata que existe para vuestro grupo, con horas de tren y barco comprobadas para estas fechas exactas. El plan entero sale por unos <strong>CHF 925</strong> entre los cuatro, sin comidas.</p>
+
+  <div class="facts">
+    <div class="fact"><div class="k">Base</div><div class="v">Emmen (LU)</div></div>
+    <div class="fact"><div class="k">Recogida</div><div class="v">Basel · 2 sept · 12:00</div></div>
+    <div class="fact"><div class="k">Tú</div><div class="v">Halbtax anual</div></div>
+    <div class="fact"><div class="k">Tíos</div><div class="v">Sin abono</div></div>
+    <div class="fact"><div class="k">Primo, 15</div><div class="v">Junior-Karte CHF 30</div></div>
+    <div class="fact"><div class="k">Días con coche</div><div class="v">3 de 6</div></div>
+  </div>
+</header>
+
+<nav class="days" aria-label="Secciones">
+  <ul>
+    <li><a href="#abonos"><span class="n">CHF</span>Abonos</a></li>
+    <li><a href="#d1"><span class="n">01</span>Llegada</a></li>
+    <li><a href="#d2"><span class="n">02</span>Appenzell</a></li>
+    <li><a href="#d3"><span class="n">03</span>Pilatus</a></li>
+    <li><a href="#d4"><span class="n">04</span>Bernina</a></li>
+    <li><a href="#d5"><span class="n">05</span>Lauterbrunnen y Berna</a></li>
+    <li><a href="#d6"><span class="n">06</span>Vuelta</a></li>
+    <li><a href="#reservas"><span class="n">✓</span>Reservas</a></li>
+    <li><a href="#dinero"><span class="n">Σ</span>Presupuesto</a></li>
+    <li><a href="#lluvia"><span class="n">B</span>Plan B</a></li>
+  </ul>
+</nav>
+
+<!-- ================= ABONOS ================= -->
+<section class="sec" id="abonos">
+  <span class="label">La decisión que más dinero mueve</span>
+  <h2>Qué abono saca cada uno</h2>
+  <p>He calculado el coste total del viaje con cada abono y sin él. Estas son las cuatro conclusiones, con los números detrás.</p>
+
+  <div class="cols">
+    <div class="card">
+      <span class="verdict no">No compensa</span>
+      <h3>Swiss Half Fare Card, tíos</h3>
+      <p><strong>Subió de CHF 120 a CHF 150 el 1 de enero de 2026.</strong> El precio de 120 que habíais visto es el del año pasado.</p>
+      <p>Sí, da la mitad en el barco y en casi todo el transporte. El problema es que ese "casi todo" aquí suma poco. Los números exactos, <a href="#halbtax">en la tabla de abajo</a>.</p>
+    </div>
+    <div class="card">
+      <span class="verdict yes">Sí, clarísimo</span>
+      <h3>Junior-Karte, el primo</h3>
+      <p><strong>CHF 30.</strong> Con ella un chico de 6 a 15 años viaja <strong>gratis</strong> acompañado de su padre o su madre: trenes, barcos, Pilatus y toda la línea del Bernina.</p>
+      <p>Le ahorra unos <span class="num">CHF 60</span> en el viaje. Sin ninguna tarjeta pagaría tarifa de niño, que es la mitad, pero no cero.</p>
+    </div>
+    <div class="card">
+      <span class="verdict yes">Sí</span>
+      <h3>Halbtax anual, tú</h3>
+      <p><strong>CHF 190</strong> el primer año. Solo en esta semana ya te ahorra unos <span class="num">CHF 95</span>, y te queda para los otros once meses.</p>
+      <p>Ojo: el Halbtax <strong>no se suma</strong> a la tarifa de niño. En casi todos los operadores hay una sola columna reducida.</p>
+    </div>
+    <div class="card">
+      <span class="verdict no">No compensa</span>
+      <h3>Swiss Travel Pass</h3>
+      <p>Seis días son <span class="num">CHF 399</span> por adulto. Como tres de los seis días vais en coche, no llega ni a la mitad de amortizarse.</p>
+      <p>El Lucerne Travel Pass (<span class="num">CHF 240</span>) tampoco: solo compensaría si además subierais al Rigi y al Titlis.</p>
+    </div>
+  </div>
+
+  <div class="note good">
+    <div class="label">Cómo se saca la Junior-Karte siendo turista</div>
+    <p>Existe una <strong>versión en papel para visitantes: CHF 30, válida 30 días, sin necesidad de SwissPass ni de domicilio suizo</strong>. Se compra en cualquier <strong>taquilla atendida</strong>, con el chico presente y su DNI o pasaporte original. La más cómoda es la de <strong>Basel SBB el mismo día 2</strong>, nada más recogerlos, o la de Lucerna al llegar.</p>
+    <p>Condición: el chico tiene que ir acompañado por su padre o su madre, con billete válido. No vale que vaya solo contigo. Si en taquilla te dan otro precio, compara antes de pagar: la tarifa que publica SBB es de <span class="num">CHF 30</span>.</p>
+  </div>
+
+  <div id="halbtax" class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>Concepto, por cada tío</th><th class="n">Sin abono</th><th class="n">Con Half Fare Card</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Verkehrshaus + Chocolate Adventure</td><td class="n">55.00</td><td class="n">55.00</td></tr>
+        <tr><td>Appenzell, paseo al Seealpsee</td><td class="n">0.00</td><td class="n">0.00</td></tr>
+        <tr><td>Pilatus, Goldene Rundfahrt (con el barco dentro)</td><td class="n">119.80</td><td class="n">59.90</td></tr>
+        <tr><td>Bernina, Saver Day Pass todo el día</td><td class="n">52.00</td><td class="n">29.00</td></tr>
+        <tr><td>Trümmelbachfälle</td><td class="n">18.00</td><td class="n">18.00</td></tr>
+        <tr><td>Mürren vía Grütschalp, ida y vuelta</td><td class="n">23.60</td><td class="n">11.80</td></tr>
+        <tr><td>Trenes locales del día del Pilatus</td><td class="n">6.00</td><td class="n">3.00</td></tr>
+        <tr><td>Berna, solo aparcamiento</td><td class="n">0.00</td><td class="n">0.00</td></tr>
+        <tr><td>La tarjeta</td><td class="n">no aplica</td><td class="n">150.00</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td>Total por tío</td><td class="n">274.40</td><td class="n">326.70</td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <div class="note warn">
+    <div class="label">Por qué sale perdiendo, en una línea</div>
+    <p>La tarjeta <strong>sí</strong> ahorra la mitad, pero solo ahorra <span class="num">CHF 97.70</span> y cuesta <span class="num">CHF 150</span>. Cada tío <strong>pierde unos 52 francos</strong>, y entre los dos son <span class="num">75</span> contando que con ella el primo iría gratis sin la Junior-Karte.</p>
+    <p>Los tres motivos: el <strong>Verkehrshaus y el Trümmelbach no dan ningún descuento</strong> con ella y son <span class="num">73</span> francos; el <strong>Saver Day Pass del Bernina ya es baratísimo sin abono</strong> (52 en vez de 29, o sea que ahí solo ahorra 23); y <strong>tres de los seis días vais en coche</strong>, donde no hay nada que descontar.</p>
+    <p>Para que saliera a cuenta cada uno necesitaría gastar unos <span class="num">CHF 300</span> de transporte, y con este plan gastan <span class="num">195</span>. Si metierais el Jungfraujoch (<span class="num">244</span> por cabeza) la cosa cambiaría de golpe, pero ese ya lo descartamos por precio.</p>
+  </div>
+
+  <div class="note">
+    <div class="label">Dónde SÍ paga el primo</div>
+    <p>La Junior-Karte solo cubre transporte. En el <strong>Verkehrshaus</strong> paga entrada de niño (<span class="num">CHF 16</span> museo y <span class="num">CHF 10</span> el chocolate) y en el <strong>Trümmelbach</strong> paga <span class="num">CHF 8</span>, porque son museo y empresa privada, no transporte público.</p>
+  </div>
+</section>
+
+<!-- ================= DÍA 1 ================= -->
+<section class="day" id="d1">
+  <div class="day-head">
+    <div class="day-mark"><span class="n">01</span><span class="date">MIÉ<br>2 SEP</span></div>
+    <div>
+      <h2 class="day-title">De Basel al chocolate</h2>
+      <p class="day-kicker">Medio día. Los recoges a las 12:00, sacáis la Junior-Karte en la misma estación y la tarde se va entera en el Verkehrshaus, que es donde está de verdad lo del chocolate en Lucerna.</p>
+      <div class="meta">
+        <span class="chip">Coche <b>≈ 2 h 15 total</b></span>
+        <span class="chip">Basel → Emmen <b>100 km · 1 h 05</b></span>
+        <span class="chip">Adulto <b>CHF 55</b></span>
+        <span class="chip">Primo <b>CHF 26</b></span>
+      </div>
+    </div>
+  </div>
+
+  <ul class="tl">
+    <li><span class="t">10:30</span><div class="b"><strong>Salida de Emmen hacia Basel</strong><p>Por la A2. Una hora larga. Sal con margen por si su vuelo o su tren se adelanta.</p></div></li>
+    <li><span class="t">12:00</span><div class="b"><strong>Recogida en Basel</strong><p>Si llegan al EuroAirport, el aparcamiento de corta estancia es lo más cómodo. Si llegan en tren, la recogida es por el lado Centralbahnplatz de Basel SBB.</p></div></li>
+    <li><span class="t">12:20</span><div class="b"><strong>Junior-Karte en la taquilla de Basel SBB</strong><p>Cinco minutos y <span class="num">CHF 30</span>. Necesitas al chico delante con su documento original y a uno de sus padres. Es la compra que más rentabilidad da de todo el viaje.</p><p>Aprovecha y <strong>compra ya los Saver Day Pass del sábado</strong> si no lo has hecho antes, aunque es mejor haberlos comprado desde casa.</p></div></li>
+    <li><span class="t">13:45</span><div class="b"><strong>Llegada a Lucerna y comida</strong></div></li>
+    <li><span class="t">15:00</span><div class="b"><strong>Verkehrshaus der Schweiz</strong><p>Haldenstrasse 44. Aparca en el Parking Verkehrshaus Lido (Lidostrasse 5, 800 plazas, <span class="num">CHF 2</span> la hora). El museo cierra a las <span class="num">18:00</span>.</p><p>Museo: adulto <span class="num">CHF 37</span>, menor de 16 <span class="num">CHF 16</span>. El <strong>Swiss Chocolate Adventure</strong> va aparte: <span class="num">CHF 18</span> y <span class="num">CHF 10</span>. El Tagespass de <span class="num">CHF 62</span> solo compensa si además veis planetario o cine, y llegando a las tres no da tiempo. El Halbtax no descuenta nada aquí.</p></div></li>
+    <li><span class="t">15:15</span><div class="b"><strong>Primero la vagoneta del chocolate</strong><p>Recorrido sentados de unos 20 minutos por el mundo del cacao, hecho con Lindt. No se reserva hora, pero <strong>el último viaje sale a las 17:20</strong>. Hazlo nada más entrar y el resto de la tarde queda libre para las naves de trenes, coches y aviación.</p></div></li>
+    <li><span class="t">18:00</span><div class="b"><strong>Casco antiguo de Lucerna</strong><p>Kapellbrücke, el Löwendenkmal y la Mühlenplatz. Paseo corto y cena, que vienen de viajar.</p></div></li>
+  </ul>
+
+  <div class="note warn">
+    <div class="label">Aclaración</div>
+    <p><strong>En Lucerna no hay museo del chocolate.</strong> Hay el Swiss Chocolate Adventure, una atracción de 20 minutos dentro del museo del transporte. El museo del chocolate de verdad es la <strong>Lindt Home of Chocolate</strong>, en Kilchberg junto a Zúrich, a hora y media de coche, con entrada de <span class="num">CHF 17</span>. Lo tienes en el <a href="#lluvia">plan B</a> por si es eso lo que les hacía ilusión.</p>
+  </div>
+</section>
+
+<!-- ================= DÍA 2 ================= -->
+<section class="day" id="d2">
+  <div class="day-head">
+    <div class="day-mark"><span class="n">02</span><span class="date">JUE<br>3 SEP</span></div>
+    <div>
+      <h2 class="day-title">Appenzell por abajo, al Seealpsee</h2>
+      <p class="day-kicker">Sin teleférico, tal como querías. La ruta va por el valle hasta el lago y vuelve. Sale por el precio del aparcamiento y punto, así que es el día más barato del viaje. Va en jueves porque el parking de Wasserauen se llena los fines de semana.</p>
+      <div class="meta">
+        <span class="chip">Coche <b>≈ 2 h por trayecto</b></span>
+        <span class="chip good">Billetes <b>CHF 0</b></span>
+        <span class="chip">Parking <b>CHF 15.75 el día</b></span>
+        <span class="chip hot">Llevad monedas</span>
+      </div>
+    </div>
+  </div>
+
+  <ul class="tl">
+    <li><span class="t">07:00</span><div class="b"><strong>Salida de Emmen</strong><p>Unos 135 km: A2 hacia Zúrich, luego A4 y A3, y al final carreteras comarcales por Appenzell hasta Wasserauen.</p></div></li>
+    <li><span class="t">09:00</span><div class="b"><strong>Aparcar en Wasserauen</strong><p><span class="num">CHF 15.75</span> las 24 horas, con los primeros 90 minutos gratis. <strong>Solo monedas o app</strong> (TWINT, EasyPark, Parkingpay), la tarjeta puede no funcionar.</p><p>Si estuviera lleno, dejad el coche en el pueblo de Appenzell y subid en el tren S23, 13 minutos, cada media hora.</p></div></li>
+    <li><span class="t">09:15</span><div class="b"><strong>Subida al Seealpsee</strong><p>Por la carretera alpina asfaltada: unos 270 m de desnivel y una hora larga de subida. Empinada pero sin ningún peligro y sin tramos expuestos. Al llegar, el lago con las paredes del Säntis detrás.</p></div></li>
+    <li><span class="t">10:45</span><div class="b"><strong>Vuelta al lago y comida</strong><p>Dos restaurantes en la orilla, el Berggasthaus Seealpsee y el Forelle. Dar la vuelta entera al lago son 40 minutos llanos. Hay playa si alguien se anima a bañarse.</p></div></li>
+    <li><span class="t">13:00</span><div class="b"><strong>Bajada a Wasserauen</strong><p>Tres cuartos de hora. Bastones o palo si alguien tiene rodillas delicadas, que baja bastante seguido.</p></div></li>
+    <li><span class="t">14:15</span><div class="b"><strong>Pueblo de Appenzell</strong><p>De camino a casa. La Hauptgasse con las fachadas pintadas, la farmacia Löwen, el Landsgemeindeplatz donde votan a mano alzada. Hora y media basta, y es el sitio para comprar queso y Biberli.</p></div></li>
+    <li><span class="t">17:45</span><div class="b"><strong>En casa</strong></div></li>
+  </ul>
+
+  <div class="note warn">
+    <div class="label">Si alguien propone subir al Äscher andando</div>
+    <p>El sendero que baja del Äscher al Seealpsee es el de la foto famosa y es donde ha habido varios muertos en los últimos años: estrecho, empinado, con un cortado de unos 80 metros justo debajo y sin redes ni barandillas, porque las autoridades decidieron poner carteles en vez de protecciones. Quedándoos abajo lo evitáis por completo, que es la decisión correcta con este grupo.</p>
+    <p>Aun así, calzado con suela de tacos: la carretera al lago tiene tramos de grava y con lluvia resbala.</p>
+  </div>
+</section>
+
+<!-- ================= DÍA 3 ================= -->
+<section class="day" id="d3">
+  <div class="day-head">
+    <div class="day-mark"><span class="n">03</span><span class="date">VIE<br>4 SEP</span></div>
+    <div>
+      <h2 class="day-title">Pilatus, y el barco va incluido</h2>
+      <p class="day-kicker">Aquí hay una sorpresa buena. Hacer el teleférico y el barco por separado sale más caro que el circuito completo: la Goldene Rundfahrt lleva los dos dentro y cuesta menos. Así que hacemos el circuito entero y os ahorráis dinero.</p>
+      <div class="meta">
+        <span class="chip">Jornada <b>≈ 7 h</b></span>
+        <span class="chip good">Sin coche <b>tren desde Emmenbrücke</b></span>
+        <span class="chip">Adulto <b>CHF 119.80</b></span>
+        <span class="chip good">Primo <b>gratis</b></span>
+        <span class="chip hot">Mirar la webcam antes de salir</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="note good">
+    <div class="label">Por qué el circuito completo es lo barato</div>
+    <p>Teleférico Kriens ida y vuelta (<span class="num">CHF 84</span>) más una tarjeta de barco del lago (<span class="num">CHF 86</span>) son <span class="num">CHF 170</span> por adulto. La <strong>Goldene Rundfahrt entera cuesta CHF 119.80</strong> e incluye barco, cremallera, teleférico y bus. Con tu Halbtax se te queda en <span class="num">CHF 59.90</span>, que es exactamente la mitad.</p>
+  </div>
+
+  <ul class="tl">
+    <li><span class="t">08:00</span><div class="b"><strong>Webcam y parte del tiempo</strong><p>Abre <span class="num">pilatus.ch/live</span>. Si Emmen amanece con niebla baja y hay anticiclón, arriba lo más probable es sol sobre el mar de nubes. Si está tapado, cambia este día por el del domingo y ya está.</p></div></li>
+    <li><span class="t">09:00</span><div class="b"><strong>Emmenbrücke a Lucerna en tren</strong><p>Seis minutos. Hoy el coche se queda en casa: el circuito acaba en Kriens y vuelve en bus a la estación de Lucerna.</p></div></li>
+    <li><span class="t">09:38</span><div class="b"><strong>Barco desde Bahnhofquai, embarcadero 2</strong><p>Frente a la estación. Llega a Alpnachstad a las <span class="num">10:49</span>. Es la salida buena: la siguiente es a las 10:38 y recorta la mañana. Las de 08:38 y 11:50 solo circulan fines de semana de julio y agosto.</p></div></li>
+    <li><span class="t">11:00</span><div class="b"><strong>Cremallera Alpnachstad a Pilatus Kulm</strong><p>Media hora, con rampas del 48 %, el cremallera más empinado del mundo. Arriba a las <span class="num">11:30</span>, a 2.132 m.</p></div></li>
+    <li><span class="t">11:30</span><div class="b"><strong>Tres horas arriba</strong><p><strong>Drachenweg</strong>, el camino excavado en la roca con ventanas al valle, 10 minutos y sin desnivel. <strong>Esel</strong> (2.118 m), otros 10 minutos, el mirador clásico sobre Lucerna. Si están finos, el <strong>Tomlishorn</strong> por el sendero de flores alpinas son 35 minutos por trayecto y es el mejor paseo de arriba.</p><p>El Bellevue de autoservicio tiene terraza panorámica. Llevad chaqueta: arriba hace unos 10 grados menos y corre viento.</p></div></li>
+    <li><span class="t">14:45</span><div class="b"><strong>Bajada: Dragon Ride y góndola</strong><p>Teleférico a Fräkmüntegg en 4 minutos, y góndola panorámica hasta Kriens, unos 30 minutos. En Fräkmüntegg está el tobogán de verano más largo de Suiza, 1.350 m, por si al primo le apetece.</p></div></li>
+    <li><span class="t">15:40</span><div class="b"><strong>Bus 1 de Kriens a Lucerna</strong><p>Y tren de vuelta a Emmenbrücke.</p></div></li>
+  </ul>
+
+  <div class="note">
+    <div class="label">El detalle del primo</div>
+    <p>Pilatus acepta expresamente la Junior-Karte como viaje gratis para menores de 16 acompañados, y los barcos del lago también. <strong>En taquilla pide que le monten el circuito con la Junior-Karte</strong> en vez de venderle un billete infantil de <span class="num">CHF 59.90</span>. Si por lo que sea no os lo aplican al producto combinado, pedid los tramos sueltos.</p>
+  </div>
+</section>
+
+<!-- ================= DÍA 4 ================= -->
+<section class="day" id="d4">
+  <div class="day-head">
+    <div class="day-mark"><span class="n">04</span><span class="date">SÁB<br>5 SEP</span></div>
+    <div>
+      <h2 class="day-title">El Bernina, todo en tren y con el Albula de regalo</h2>
+      <p class="day-kicker">Elegiste tren desde Lucerna y es la decisión buena por dos motivos. Uno, con el Saver Day Pass sale por unos <strong>CHF 133 entre los cuatro</strong>, la mitad que en coche contando gasolina y aparcamiento. Y dos, subiendo por Landquart hacéis además la <strong>línea del Albula</strong>, con el viaducto de Landwasser, que es la otra mitad del Patrimonio de la Humanidad y en coche os la perderíais.</p>
+      <div class="meta">
+        <span class="chip hot">14 h 20 puerta a puerta</span>
+        <span class="chip good">Los 4 <b>≈ CHF 133</b></span>
+        <span class="chip">Sin coche <b>ni parking ni gasolina</b></span>
+        <span class="chip">Sin reserva <b>trenes regionales</b></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="note good">
+    <div class="label">El billete: un solo Saver Day Pass por persona, todo el día</div>
+    <p>El <strong>Saver Day Pass</strong> de SBB cubre el día entero en toda la red donde vale el abono general, y eso incluye la Rhätische Bahn hasta Tirano. Un solo billete para todo el recorrido, ida y vuelta, incluido el tren de Emmenbrücke a Lucerna.</p>
+    <p>2ª clase: <strong>desde CHF 52</strong> sin abono, <strong>desde CHF 29</strong> con tu Halbtax, y el primo <strong>gratis con la Junior-Karte</strong> (o <span class="num">CHF 19</span> de tarifa infantil si al final no la sacáis). Se compra <strong>con un día de antelación como mínimo y hasta seis meses antes</strong>, y el precio sube según se agota el cupo, así que <strong>cómpralos ya</strong>. Confirma al comprar que la app te lo da válido hasta Tirano.</p>
+  </div>
+
+  <ul class="tl">
+    <li><span class="t">05:47</span><div class="b"><strong>Emmenbrücke</strong><p>RE 24 hasta Lucerna, llegada 05:55. Es el madrugón del viaje, pero luego son cuatro horas de tren en las que se puede dormir, que es justo lo que no se puede hacer conduciendo.</p></div></li>
+    <li><span class="t">06:09</span><div class="b"><strong>Lucerna a Zúrich HB</strong><p>IR 70, llegada 06:51. Enlace a las 07:07 con el IC 3.</p></div></li>
+    <li><span class="t">07:07</span><div class="b"><strong>Zúrich a Landquart</strong><p>IC 3, llegada 08:11. Desayuno en el tren.</p></div></li>
+    <li><span class="t">08:20</span><div class="b"><strong>Landquart a St. Moritz por la línea del Albula</strong><p>RE 13, llegada <span class="num">10:12</span>. Casi dos horas de Rhätische Bahn: el desfiladero del Rin, Thusis, el <strong>viaducto de Landwasser</strong> que entra directo en el túnel de la pared, Filisur y los túneles helicoidales que ganan altura en espiral. Este tramo es la mitad del Patrimonio de la Humanidad que el plan en coche se saltaba.</p></div></li>
+    <li><span class="t">10:48</span><div class="b"><strong>St. Moritz a Alp Grüm, tren rojo regional</strong><p>RE 9, llegada <span class="num">11:42</span>. Sin reserva y sin suplemento, con ventanas que se abren, que para fotos es mejor que el cristal panorámico del Bernina Express. Pontresina, el glaciar Morteratsch, el paso del Bernina a 2.253 m con el <strong>Lago Bianco</strong> turquesa y la bajada colgada sobre el valle de Poschiavo.</p></div></li>
+    <li><span class="t">11:42</span><div class="b"><strong>Alp Grüm: comer con el glaciar delante</strong><p>Estación a 2.091 m a la que <strong>solo se llega en tren</strong>, con restaurante y terraza mirando al glaciar Palü. Dos horas y media aquí, sin prisa. Es el mejor rato del día.</p></div></li>
+    <li><span class="t">14:13</span><div class="b"><strong>Vuelta: Alp Grüm a St. Moritz</strong><p>RE 9, llegada 15:11. Cuidado, el de las 14:59 es el Bernina Express y lleva reserva obligatoria de pago: no lo cojáis.</p></div></li>
+    <li><span class="t">15:47</span><div class="b"><strong>St. Moritz a casa</strong><p>RE 3 hasta Landquart 17:39, IC 3 a Zúrich 18:56, IR 70 a Lucerna 19:51 y S9 a <strong>Emmenbrücke 20:07</strong>.</p></div></li>
+  </ul>
+
+  <div class="note">
+    <div class="label">Si queréis pisar Italia</div>
+    <p>Se puede llegar hasta <strong>Tirano</strong>: St. Moritz 10:48 y llegada a las <span class="num">13:00</span>. Da para el santuario de la Madonna di Tirano, a cinco minutos de la estación, comer italiano a precio italiano y ver el <strong>viaducto circular de Brusio</strong> por el camino. Pero el regreso os deja en casa a las <span class="num">21:07</span> en vez de a las 20:07, y os quedáis sin la parada tranquila de Alp Grüm.</p>
+    <p>Va cubierto por el mismo Saver Day Pass. <strong>Llevad DNI o pasaporte los cuatro</strong>: Suiza no está en la unión aduanera y hay controles aleatorios en la frontera.</p>
+  </div>
+
+  <div class="note warn">
+    <div class="label">Lo que NO hay que comprar</div>
+    <p>El <strong>Bernina Express</strong> es el mismo recorrido en coches panorámicos, con <strong>reserva obligatoria de CHF 32 a 44 por persona y trayecto</strong>. Con cuatro personas ida y vuelta son entre <span class="num">CHF 256</span> y <span class="num">352</span> solo de suplementos, por el mismo paisaje y con ventanas que no se abren. En septiembre además suele estar agotado. Los regionales pasan cada hora y son mejores.</p>
+  </div>
+</section>
+
+<!-- ================= DÍA 5 ================= -->
+<section class="day" id="d5">
+  <div class="day-head">
+    <div class="day-mark"><span class="n">05</span><span class="date">DOM<br>6 SEP</span></div>
+    <div>
+      <h2 class="day-title">Lauterbrunnen de día, Berna al anochecer</h2>
+      <p class="day-kicker">Dos sitios en un día y encajan bien, porque Berna cae de camino a casa. He recortado el rato de Mürren y quitado la parada en Interlaken para hacerle sitio. Lauterbrunnen es el valle de las 72 cascadas: setenta y dos saltos cayendo por paredes verticales de hasta 400 metros.</p>
+      <div class="meta">
+        <span class="chip">Coche <b>2 h 20 en total</b></span>
+        <span class="chip">Trümmelbach <b>CHF 18 · niño 8</b></span>
+        <span class="chip">Mürren <b>CHF 23.60 · tú 11.80</b></span>
+        <span class="chip">Parkings <b>CHF 12 + 11</b></span>
+        <span class="chip hot">En casa a las 22:15</span>
+      </div>
+    </div>
+  </div>
+
+  <ul class="tl">
+    <li><span class="t">07:30</span><div class="b"><strong>Salida de Emmen</strong><p>A2 hasta Hergiswil, el <strong>paso del Brünig</strong>, Sarnen, Lungern, la orilla del lago de Brienz, Interlaken y Lauterbrunnen. Unos 90 km. Es de las carreteras más bonitas del país.</p></div></li>
+    <li><span class="t">09:00</span><div class="b"><strong>Aparcar en Lauterbrunnen</strong><p><strong>Parking Kirche</strong>, junto a la iglesia, <span class="num">CHF 12</span> por 8 horas y el más céntrico. El Parkhaus de la estación tiene 974 plazas a <span class="num">CHF 18</span>. Para un día no se reserva, se llega y se entra.</p></div></li>
+    <li><span class="t">09:15</span><div class="b"><strong>Staubbachfall</strong><p><strong>297 metros de caída libre</strong> justo al salir del pueblo, gratis y visible sin andar nada. Hasta la base son 15 o 20 minutos a pie. Hay una galería excavada detrás de la cascada, con escaleras y salpicaduras, media hora ida y vuelta. En septiembre lleva menos agua que en junio.</p></div></li>
+    <li><span class="t">10:15</span><div class="b"><strong>Trümmelbachfälle</strong><p><strong>Esto es lo raro y lo que merece la pena.</strong> Son diez cascadas <strong>dentro de la montaña</strong>, invisibles desde fuera: drenan el deshielo del Eiger, el Mönch y la Jungfrau, hasta 20.000 litros por segundo, y han excavado un cañón vertical en la roca. Se sube en un ascensor metido en un túnel y se recorre por pasarelas y escaleras iluminadas, con el agua rugiendo al lado. Las mayores cascadas subterráneas de Europa.</p><p>A tres kilómetros, o bus 141 dirección Stechelberg. Entrada <span class="num">CHF 18</span> y <span class="num">CHF 8</span> el primo. <strong>Aquí no vale ningún abono</strong>, es empresa privada. De 9:00 a 17:00, sin reserva. Una hora con calma. Está húmedo y resbala.</p></div></li>
+    <li><span class="t">11:45</span><div class="b"><strong>Comida rápida en Lauterbrunnen</strong><p>Hoy sin sobremesa, que la tarde va apretada.</p></div></li>
+    <li><span class="t">12:45</span><div class="b"><strong>Teleférico a Grütschalp y tren a Mürren</strong><p><strong>Mürren es un pueblo sin coches colgado a 1.650 m</strong> en la pared de enfrente del valle, con el Eiger, el Mönch y la Jungfrau de frente. Cuatro minutos de teleférico desde la misma estación de Lauterbrunnen, sin mover el coche, y luego un trenecito panorámico de catorce minutos que va por el borde del precipicio. Arriba, paseo llano, terrazas y cero esfuerzo.</p><p>Ida y vuelta <span class="num">CHF 23.60</span>, <span class="num">CHF 11.80</span> con tu Halbtax y <strong>gratis el primo</strong> con la Junior-Karte. Dos horas arriba dan de sobra para pasear el pueblo y tomar algo mirando a la pared del Eiger.</p></div></li>
+    <li><span class="t">15:30</span><div class="b"><strong>Bajada y coche</strong></div></li>
+    <li><span class="t">16:10</span><div class="b"><strong>Lauterbrunnen a Berna</strong><p>Unos 70 km por Interlaken, la A8 hasta Spiez y la A6 por Thun. Hora y cuarto contando el tráfico dominical de vuelta del Oberland.</p></div></li>
+    <li><span class="t">17:25</span><div class="b"><strong>Aparcar en el Rathaus Parking</strong><p>Postgasshalde 50, entrada desde el puente Nydeggbrücke. <strong>Los domingos se aplica tarifa nocturna todo el día</strong>: unos <span class="num">CHF 2.40</span> la hora, así que la parada entera son <span class="num">CHF 10 a 12</span>. Está en la ciudad baja, a tres minutos de la Kramgasse, y al volver bajáis en vez de subir.</p></div></li>
+    <li><span class="t">17:30</span><div class="b"><strong>Gerechtigkeitsgasse y Kramgasse</strong><p>Los <strong>seis kilómetros de soportales</strong> de Berna son el conjunto de arcadas cubiertas más largo de Europa. Por el camino, las fuentes policromadas del siglo XVI: la de la Justicia con los ojos vendados, el Zähringerbrunnen del oso con armadura y, en la Kornhausplatz, el <strong>Kindlifresserbrunnen</strong>, el ogro comeniños, que al primo le va a encantar. La Casa de Einstein está en la Kramgasse 49, pero a esa hora ya solo se ve la fachada.</p></div></li>
+    <li><span class="t">17:56</span><div class="b"><strong>Las figuras de la Zytglogge</strong><p>El carillón de la torre del reloj astronómico <strong>arranca cuatro minutos antes de la hora en punto</strong>, o sea a las 17:56, 18:56 y 19:56. Dura unos cuatro minutos: canta el gallo, el bufón toca las campanas, desfilan los osos y Cronos gira el reloj de arena. Hay que ponerse en la <strong>esquina sureste, la de la Kramgasse</strong>, que es el lado que tiene las figuras.</p></div></li>
+    <li><span class="t">18:05</span><div class="b"><strong>Münster y Bundesterrasse</strong><p>La portada del <strong>Juicio Final</strong> del Münster, con 234 figuras, es la mejor fachada gótica de Suiza y se ve entera desde fuera. Al lado, la Münsterplattform, terraza gratuita sobre el Aare. Después la <strong>Bundesterrasse</strong>, detrás del Parlamento, con vistas al río y a los Alpes, y en la Bundesplatz los 26 chorros de agua del suelo, uno por cantón.</p></div></li>
+    <li><span class="t">19:10</span><div class="b"><strong>BärenPark, el foso de los osos</strong><p>Junto al Nydeggbrücke. <strong>Abierto siempre y gratis.</strong> En septiembre los osos están fuera y activos.</p></div></li>
+    <li><span class="t">19:30</span><div class="b"><strong>Cena en el Altes Tramdepot</strong><p>Grosser Muristalden 6, pegado al BärenPark. Cervecería propia, cocina suiza, rösti y salchichas, terraza con vistas al casco antiguo y ambiente informal. <strong>Abre todos los días hasta las 00:30 y hay que reservar</strong>, porque es de los pocos abiertos en domingo. Teléfono: +41 31 368 14 15.</p></div></li>
+    <li><span class="t">20:35</span><div class="b"><strong>Rosengarten, el mirador</strong><p>Diez o quince minutos cuesta arriba desde el BärenPark. Es <strong>la</strong> vista de Berna: el meandro del Aare, los tejados rojos y el Münster. El sol se pone a las <span class="num">20:01</span> y hay luz hasta las <span class="num">20:32</span>, así que llegaréis justo cuando se enciende la ciudad, que es cuando mejor está.</p></div></li>
+    <li><span class="t">21:00</span><div class="b"><strong>Salida hacia casa</strong><p>106 km por la A1 hasta Härkingen y la A2 a Lucerna. En casa sobre las <span class="num">22:15</span>.</p></div></li>
+  </ul>
+
+  <div class="note warn">
+    <div class="label">Berna en domingo por la tarde: lo que ya está cerrado</div>
+    <p>Llegando a las 17:25 os quedáis sin la <strong>torre del Münster</strong> (último acceso 16:30), sin la <strong>Casa de Einstein</strong> (cierra a las 17:00), sin museos y sin tiendas, porque en Suiza el domingo no abre el comercio. Solo abren las tiendas de la estación, hasta las 20:00.</p>
+    <p>No pasa nada: todo lo bueno de Berna es de calle y es gratis. Los soportales, las once fuentes, la Zytglogge, el foso de los osos y el Rosengarten no cierran nunca.</p>
+  </div>
+
+  <div class="note">
+    <div class="label">Lo que descarto en Lauterbrunnen y por qué</div>
+    <p><strong>Jungfraujoch</strong>: <span class="num">CHF 244.60</span> ida y vuelta en temporada alta más <span class="num">CHF 10</span> de reserva obligatoria. Entre los cuatro pasa de <span class="num">CHF 800</span>, se come el día entero, son 3.454 metros donde el mal de altura leve es normal, y si hay nubes pagas eso por ver niebla.</p>
+    <p><strong>Grindelwald First</strong> obligaría a mover el coche al otro valle y ya no cabría Berna.</p>
+  </div>
+</section>
+
+<!-- ================= DÍA 6 ================= -->
+<section class="day" id="d6">
+  <div class="day-head">
+    <div class="day-mark"><span class="n">06</span><span class="date">LUN<br>7 SEP</span></div>
+    <div>
+      <h2 class="day-title">Lucerna despacio y vuelta a Basel</h2>
+      <p class="day-kicker">Sin excursión. Lo que quede de Lucerna por la mañana y salida hacia Basel con margen de sobra.</p>
+      <div class="meta">
+        <span class="chip">Emmen → Basel <b>1 h 05</b></span>
+        <span class="chip hot">Ajustar a su hora de salida</span>
+      </div>
+    </div>
+  </div>
+
+  <ul class="tl">
+    <li><span class="t soft">09:30</span><div class="b"><strong>Casco antiguo de Lucerna</strong><p>Kapellbrücke y la Wasserturm, la Spreuerbrücke, la muralla Museggmauer con sus torres subibles y gratuitas, y los frescos de la Weinmarkt. Todo se hace andando en un par de horas.</p></div></li>
+    <li><span class="t soft">11:00</span><div class="b"><strong>Compras de última hora</strong><p>Chocolate y quesos: cualquier Coop o Migros sale la mitad que las tiendas del puente. Si quieren algo más especial, la confitería Bachmann de la Schwanenplatz.</p></div></li>
+    <li><span class="t soft">12:30</span><div class="b"><strong>Comida y salida hacia Basel</strong><p>Sal de Emmen con <strong>tres horas y media de margen</strong> sobre su vuelo: una de trayecto y dos y media para facturación y controles en el EuroAirport. Si vuelven en tren, con dos horas basta.</p></div></li>
+  </ul>
+
+  <div class="note">
+    <div class="label">Si su salida es muy temprano</div>
+    <p>Entonces esta mañana no existe: salid directos y meted el paseo por Lucerna al final del día 1 o del día 3, que los dos acaban pronto y estáis en la ciudad de todos modos.</p>
+  </div>
+</section>
+
+<!-- ================= RESERVAS ================= -->
+<section class="sec" id="reservas">
+  <span class="label">Antes de que lleguen</span>
+  <h2>Lo que hay que hacer con antelación</h2>
+  <p>Casi nada de este plan necesita reserva. Estas son las excepciones y los detalles que se olvidan, en orden de importancia.</p>
+
+  <ul class="checks">
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>Comprar hoy los Saver Day Pass del sábado 5</b><span>Es lo más urgente de la lista. El cupo es limitado y el precio sube según se llena: cuanto antes, más barato. Tres pases (los dos tíos y tú) en la app SBB, o cuatro si al final no sacáis la Junior-Karte. Confirma que sale válido hasta Tirano.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>Junior-Karte del primo, taquilla de Basel SBB el día 2</b><span>CHF 30, versión de papel de 30 días, con él delante y su documento original más uno de sus padres. Le ahorra unos 60 francos y hace gratis el Pilatus, el Bernina y Mürren.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>No comprar la Swiss Half Fare Card</b><span>Subió a CHF 150 este año y con este itinerario pierde unos 55 francos por persona. Si alguien insiste, que primero mire este cálculo.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>Mirar el parte de Pilatus y de Lauterbrunnen la víspera</b><span>Son los dos días intercambiables. Webcams en pilatus.ch/live. El Bernina y Appenzell no se pueden mover de fecha con la misma facilidad.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>Monedas sueltas para el aparcamiento de Wasserauen</b><span>La tarjeta puede no funcionar. Alternativa: TWINT o EasyPark instaladas en el móvil.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>DNI o pasaporte en vigor los cuatro</b><span>Obligatorio para el chico al sacar la Junior-Karte, y necesario si acabáis bajando a Tirano.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>Viñeta de autopista al día</b><span>CHF 40. Se usa los tres días de coche.</span></span></li>
+    <li><span class="box" aria-hidden="true"></span><span class="txt"><b>Calzado con suela de tacos y chaqueta cortavientos</b><span>Imprescindible en Appenzell y útil en Trümmelbach. Arriba en el Pilatus y en el Bernina hace unos 10 grados menos que abajo.</span></span></li>
+  </ul>
+</section>
+
+<!-- ================= PRESUPUESTO ================= -->
+<section class="sec" id="dinero">
+  <span class="label">Números</span>
+  <h2>Lo que cuesta, sin comidas</h2>
+  <p>Precios de 2026. Los tíos van sin abono, el primo con la Junior-Karte y tú con el Halbtax.</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>Día</th><th>Concepto</th><th class="n">Cada tío</th><th class="n">Primo, 15</th><th class="n">Tú</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Mié 2</td><td>Verkehrshaus + Chocolate Adventure</td><td class="n">55.00</td><td class="n">26.00</td><td class="n">55.00</td></tr>
+        <tr><td>Mié 2</td><td>Junior-Karte, 30 días</td><td class="n">no aplica</td><td class="n">30.00</td><td class="n">no aplica</td></tr>
+        <tr><td>Jue 3</td><td>Appenzell, solo el paseo al Seealpsee</td><td class="n free">0.00</td><td class="n free">0.00</td><td class="n free">0.00</td></tr>
+        <tr><td>Vie 4</td><td>Pilatus, Goldene Rundfahrt</td><td class="n">119.80</td><td class="n free">gratis</td><td class="n">59.90</td></tr>
+        <tr><td>Sáb 5</td><td>Bernina, Saver Day Pass 2ª clase</td><td class="n">desde 52.00</td><td class="n free">gratis</td><td class="n">desde 29.00</td></tr>
+        <tr><td>Dom 6</td><td>Trümmelbachfälle</td><td class="n">18.00</td><td class="n">8.00</td><td class="n">18.00</td></tr>
+        <tr><td>Dom 6</td><td>Mürren vía Grütschalp, ida y vuelta</td><td class="n">23.60</td><td class="n free">gratis</td><td class="n">11.80</td></tr>
+        <tr><td>Dom 6</td><td>Berna al anochecer, todo de calle</td><td class="n free">0.00</td><td class="n free">0.00</td><td class="n free">0.00</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td colspan="2">Total por persona</td><td class="n">≈ 268</td><td class="n">≈ 64</td><td class="n">≈ 174</td></tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <div class="cols">
+    <div class="card">
+      <h3>Suma de los cuatro</h3>
+      <p>268 × 2 + 64 + 174 = <strong>CHF 774</strong> en entradas y billetes.</p>
+      <p>Tu Halbtax de <span class="num">CHF 190</span> va aparte, porque te sirve todo el año.</p>
+    </div>
+    <div class="card">
+      <h3>Aparcamientos</h3>
+      <p>Verkehrshaus <span class="num">≈ 6</span> · Wasserauen <span class="num">15.75</span> · Lauterbrunnen <span class="num">12</span> · Berna <span class="num">≈ 11</span>.</p>
+      <p><strong>Unos CHF 45</strong>. Los días de Pilatus y Bernina no hay coche, así que no hay parking.</p>
+    </div>
+    <div class="card">
+      <h3>Gasolina</h3>
+      <p>Unos 760 km: Basel ida y vuelta dos veces, Appenzell, y Lauterbrunnen volviendo por Berna.</p>
+      <p><strong>Calcula CHF 100 a 115</strong> según el coche.</p>
+    </div>
+    <div class="card">
+      <h3>Total del viaje</h3>
+      <p>Billetes, entradas, aparcamientos, gasolina y los trenes locales del día del Pilatus:</p>
+      <p><strong>alrededor de CHF 925</strong> entre los cuatro, sin comidas.</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="label">Dónde está el ahorro respecto a la primera versión</div>
+    <p>Tres cosas: el Pilatus con el circuito completo en vez de teleférico y barco por separado (<span class="num">−50</span> por adulto), el Bernina en tren con Saver Day Pass en vez de coche más billetes (<span class="num">−100</span> largos entre los cuatro, y sin conducir seis horas) y Appenzell sin teleférico (<span class="num">−36</span> por adulto). Más los <span class="num">60</span> que salva la Junior-Karte del primo.</p>
+  </div>
+</section>
+
+<!-- ================= PLAN B ================= -->
+<section class="sec" id="lluvia">
+  <span class="label">Por si llueve</span>
+  <h2>Plan B</h2>
+  <p>En septiembre puede caer un día entero de agua. Estos planes aguantan la lluvia y están todos a menos de hora y media de casa.</p>
+
+  <div class="cols">
+    <div class="card">
+      <h3>Lindt Home of Chocolate</h3>
+      <p>Kilchberg, junto a Zúrich. El museo del chocolate de verdad: siete mundos temáticos, una fuente de chocolate de nueve metros y degustaciones. Entrada <span class="num">CHF 17</span>, de 10:00 a 19:00, conviene reservar online. Hora y media de coche.</p>
+    </div>
+    <div class="card">
+      <h3>Gletschergarten y Museo Rosengart</h3>
+      <p>Los dos en Lucerna. El Jardín de los Glaciares tiene marmitas glaciares, un laberinto de espejos y una torre mirador cubierta. El Rosengart guarda Picassos y Klees. Media jornada bajo techo sin coger el coche.</p>
+    </div>
+    <div class="card">
+      <h3>Berna, casco antiguo</h3>
+      <p>Hora y cuarto de coche. Seis kilómetros de soportales, así que se pasea con lluvia. La Zytglogge, la catedral y la fosa de los osos. Patrimonio de la Humanidad entero.</p>
+    </div>
+    <div class="card">
+      <h3>Gotthard Panorama Express</h3>
+      <p>Si el que se tuerce es el sábado del Bernina: barco de Lucerna a Flüelen y tren panorámico por el Gotardo viejo hasta Bellinzona. Sale de Lucerna, son ocho horas y va bien con lluvia porque casi todo es de ventanilla. Reserva obligatoria de <span class="num">CHF 24</span>.</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="label">Regla de oro</div>
+    <p>Los días de montaña se deciden por la mañana, no por el calendario. Pilatus y Lauterbrunnen son intercambiables entre sí, y si el domingo llueve, Berna se pasea igual de bien bajo los soportales. Appenzell aguanta bien un día nublado porque el lago no depende de vistas lejanas. El sábado del Bernina es el único que no se puede mover, porque los Saver Day Pass son para una fecha concreta y no se cambian.</p>
+  </div>
+</section>
+
+<footer class="foot">
+  <p>Horarios de tren comprobados uno a uno para las fechas reales del 3 y el 5 de septiembre de 2026 en el horario oficial suizo. Precios comprobados en las webs de SBB, Pilatus Bahnen, SGV, Rhätische Bahn, Schilthornbahn, Verkehrshaus y Trümmelbachfälle. Vuelve a mirar los enlaces del tren en la app SBB la víspera, que es donde están de verdad al día.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
